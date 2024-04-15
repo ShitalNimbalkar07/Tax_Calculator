@@ -1,0 +1,18 @@
+
+
+.error-icon {
+    display: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: red;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  .form-group.invalid .error-icon {
+    display: block;
+  }
+  
